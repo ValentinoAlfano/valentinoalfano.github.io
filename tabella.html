@@ -1,21 +1,42 @@
 <html>
     <head> 
-
+        <style>
+            table {
+              border: 5px solid blue;
+              margin: auto;
+            }
+            td {
+              border: 1px solid blue;
+            }
+            h1 {
+                text-align: center;
+            }
+            </style>
     </head>
     <body>
-        <div id="tabella">
-            <h1>Le Reti: Internet e Intranet</h1>
+            <h1>Le Reti:Internet e Intranet</h1>
             <table>
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <td style="background-color: yellow; width: 40%; font-size: 20px;">LAN: Local Area Network</td>
+                    <td rowspan="5" style="text-align: center; background-color: green; font-weight: bold; font-size: 24px; width: 100px"><span style="color: white">Internet<br><br>e<br><br></span>Intranet</td>                    
+                    <td rowspan="5" style="text-align: center; font-size: 24px; font-weight: bold; width: 40%;">Foto.jpg</td>
+                </tr>
+                <tr>                  
+                    <td style="background-color: yellow; font-size: 20px;">MAN: Metropolitan Area Network</td>
                 </tr>
                 <tr>
-                    <a>WWW: World Wide Web</a>
+                    <td style="background-color: yellow; font-size: 20px;">WAN: Wide Area Network</td>
+                </tr>
+                <tr>
+                    <td style="background-color: yellow; font-size: 20px;">Navigazione</td></tr>
+                <tr>
+                    <td style="background-color: yellow; font-size: 20px;">Posta Elettronica</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="text-align:center; background: red; font-size: 32px; font-weight: bold;">
+                        <a href="Foto.jpg">WWW: World Wide Web</a>
+                    </td> 
                 </tr>
             </table>
-
-        </div>
     </body>   
 </html>
